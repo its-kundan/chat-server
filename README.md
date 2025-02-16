@@ -1,12 +1,24 @@
-# 🚀 Getting started with Strapi
+# 🚀 Getting Started with Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Strapi comes with a full-featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) that lets you scaffold and manage your project in seconds.
+
+## 📌 Installation
+
+To create a new Strapi project, run:
+
+```sh
+npx create-strapi-app my-project --quickstart
+# or
+yarn create strapi-app my-project --quickstart
+```
+
+## ⚡ Commands
 
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
-```
+```sh
 npm run develop
 # or
 yarn develop
@@ -16,7 +28,7 @@ yarn develop
 
 Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
 
-```
+```sh
 npm run start
 # or
 yarn start
@@ -26,7 +38,7 @@ yarn start
 
 Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
 
-```
+```sh
 npm run build
 # or
 yarn build
@@ -34,28 +46,33 @@ yarn build
 
 ## ⚙️ Deployment
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+Strapi provides various deployment options, including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
 
-```
+```sh
 yarn strapi deploy
 ```
 
-## 📚 Learn more
+## 📚 Resources
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+- [Resource Center](https://strapi.io/resource-center) - Official Strapi resource center.
+- [Documentation](https://docs.strapi.io) - Learn about Strapi features and best practices.
+- [Tutorials](https://strapi.io/tutorials) - Explore guides created by the Strapi team and community.
+- [Blog](https://strapi.io/blog) - Stay updated with news, updates, and insights.
+- [Changelog](https://strapi.io/changelog) - Keep track of new features and improvements.
 
 ## ✨ Community
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+- [Discord](https://discord.strapi.io) - Engage with the Strapi community and core team.
+- [Forum](https://forum.strapi.io/) - Discuss, ask questions, and share feedback.
+- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - Curated list of amazing Strapi-related projects.
+
+## 🔗 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/its-kundan/)
+- [GitHub](https://github.com/its-kundan)
+- [Twitter (X)](https://x.com/kundan_k_)
 
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
